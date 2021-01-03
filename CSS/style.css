@@ -1,0 +1,157 @@
+
+body {
+  background: #FFAFBD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  font-family: courier;
+  color: purple;
+}
+
+#title h1 {
+  text-align: center;
+  margin-bottom: 3%;
+}
+#title {
+  font-size: 1.4em;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+h1, h2, h3 {
+  font-family: courier, serif;
+}
+
+#quickIcon {
+  text-align: left;
+  color: #f0f1f5;
+  display: grid;
+  grid-template-columns: 25% 50%;
+  position: relative;
+}
+
+#cloudA {
+  animation-name: move 1s infinite;
+  position: absolute;
+  left: 7%;
+  top: 100%;
+  opacity: 0.7;
+}
+
+#cloudB {
+  animation: pulse 5s infinite;
+  position: absolute;
+  left: -5%;
+  top: 80%;
+  opacity: 0.55;
+  width:16%;
+}
+
+#cloudC {
+  animation-direction: alternate;
+  position: absolute;
+  left: 85%;
+  top: 70%;
+  opacity: 0.6;
+}
+
+#cloudD {
+  position: absolute;
+  left: 4%;
+  top: 55%;
+  opacity: 0.6;
+}
+
+#cloudE {
+  position: absolute;
+  left: 70%;
+  top: 101%;
+}
+
+#cloudF {
+  position: absolute;
+  opacity: 0.5;
+  left: 20%;
+  top: 75%
+}
+
+#cloudG {
+  position: absolute;
+  top: 95%;
+}
+
+#cloudH {
+  position: absolute;
+  top: 16%;
+  left: 25%;
+  opacity: 0.6;
+
+}
+
+#cloudI {
+  position: absolute;
+  opacity: 0.45;
+}
+
+#cloudJ {
+  position: absolute;
+  opacity: 0.6;
+  top: 80%;
+}
+
+#beeA {
+  position: absolute;
+  left: 10%;
+  top: 21%;
+  transform:rotate(25%);
+}
+
+.nav-buttons {
+  display: flex;
+}
+
+.flex {
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+  background: #0399ff;
+}
+
+.links li {
+  background: #BAF49A;
+}
+
+.links li {
+  background: #D4AFE7;
+}
